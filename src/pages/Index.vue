@@ -1,13 +1,28 @@
 <template>
   <div>
     <div class="page-header clear-filter" filter-color="purple">
-      <!--  -->
+      <!-- style="background-image:url('img/desk-laptop.jpg')" -->
       <parallax
-        class="page-header-image"
-        style="background-image:url('img/mobile-location.jpg')"
+        class="page-header-image"     
+        style="background: linear-gradient(0deg, #131111, #222);"   
       >
-      <!-- style="background-image:url('img/header.jpg')" -->
+      <!-- overlay="linear-gradient(45deg,#2a4ae430,#fb949e6b)"  -->
+        <video-background 
+            src="img/roadster-loop-imperial.mp4"
+            poster="desk-laptop.jpg"
+            style="max-height: 400px; height: 100vh;"
+            
+            overlay="linear-gradient(0deg, rgba(0, 0, 0, 0.88), rgba(251, 148, 158, 0.22), rgba(251, 148, 158, 0.42))"
+        >
+            <!-- <div style="text-align:center">
+              <h1 style="color: white;">Navigate the future</h1>
+            </div> -->
+          
+        </video-background>
+        <div class="cover-tint"></div>
       </parallax>
+      <!-- <img src="img/desk-laptop.jpg" /> -->
+      
       <div class="container">
         <div class="content-center brand">
           <!-- <img class="n-logo" src="img/now-logo.png" alt="" /> -->
@@ -35,7 +50,7 @@
         </div>
       </div>
     </div>
-    <div class="main">
+    <!-- <div class="main">
       <div class="section section-images">
         <div class="container">
           <div class="row">
@@ -53,8 +68,8 @@
           </div>
         </div>
       </div>
-    </div>
-    <basic-elements></basic-elements>
+    </div> -->
+    <!-- <basic-elements></basic-elements>
     <navigation></navigation>
     <tabs-section></tabs-section>
     <progress-pagination></progress-pagination>
@@ -62,8 +77,9 @@
     <typography></typography>
     <javascript-components></javascript-components>
     <carousel-section></carousel-section>
-    <nucleo-icons-section></nucleo-icons-section>
-    <div class="section">
+    <nucleo-icons-section></nucleo-icons-section> -->
+
+    <!-- <div class="section">
       <div class="container text-center">
         <div class="row justify-content-md-center">
           <div class="col-md-12 col-lg-8">
@@ -77,9 +93,10 @@
           </div>
         </div>
       </div>
-    </div>
-    <signup-form></signup-form>
-    <examples-section></examples-section>
+    </div> -->
+
+    <!-- <signup-form></signup-form>
+    <examples-section></examples-section> -->
     <download-section></download-section>
   </div>
 </template>
@@ -98,24 +115,33 @@ import SignupForm from './components/SignupForm';
 import ExamplesSection from './components/ExamplesSection';
 import DownloadSection from './components/DownloadSection';
 
+//Parallax,
+//  BasicElements,
+//     Navigation,
+//     TabsSection,
+//     ProgressPagination,
+//     Notifications,
+//     Typography,
+//     JavascriptComponents,
+//     CarouselSection,
+//     NucleoIconsSection,
+// SignupForm,
+// ExamplesSection,
+
 export default {
   name: 'index',
   bodyClass: 'index-page',
-  components: {
-    Parallax,
-    BasicElements,
-    Navigation,
-    TabsSection,
-    ProgressPagination,
-    Notifications,
-    Typography,
-    JavascriptComponents,
-    CarouselSection,
-    NucleoIconsSection,
-    SignupForm,
-    ExamplesSection,
+  components: {           
     DownloadSection
   }
 };
 </script>
-<style></style>
+<style>
+.cover-tint {
+    height: 200px;
+    margin-top: -109px;
+    position: relative;
+    background: linear-gradient(0deg, rgb(25 24 24), rgba(0,0,0,0.1));
+    box-shadow: 0px -30px 30px rgba(0,0,0,0.1);
+}
+</style>

@@ -6,7 +6,7 @@
   >
     <div class="container">
       <div class="row justify-content-md-center">
-        <div class="text-center col-md-12 col-lg-8">
+        <!-- <div class="text-center col-md-12 col-lg-8">
           <h3 class="title">Do you love this Bootstrap 4 UI Kit?</h3>
           <h5 class="description">
             Cause if you do, it can be yours for FREE. Hit the button below to
@@ -14,7 +14,7 @@
             HTML or Sketch/PSD format. Start a new project or give an old
             Bootstrap project a new look!
           </h5>
-        </div>
+        </div> 
         <div class="text-center col-md-12 col-lg-8">
           <a
             href="https://www.creative-tim.com/product/vue-now-ui-kit"
@@ -31,13 +31,14 @@
           >
             Download PSD/Sketch
           </a>
-        </div>
+        </div>-->
       </div>
       <br />
       <br />
       <br />
       <div class="row text-center mt-5">
-        <div class="col-md-8 ml-auto mr-auto">
+
+        <!-- <div class="col-md-8 ml-auto mr-auto">
           <h2>Want more?</h2>
           <h5 class="description">
             We've just launched
@@ -48,8 +49,9 @@
             >. It has a huge number of components, sections and example pages.
             Start Your Development With A Badass Bootstrap 4 UI Kit.
           </h5>
-        </div>
-        <div class="col-md-12">
+        </div> -->
+
+        <!-- <div class="col-md-12">
           <a
             href="http://demos.creative-tim.com/vue-now-ui-kit-pro"
             class="btn btn-neutral btn-round btn-lg"
@@ -57,11 +59,12 @@
           >
             <i class="now-ui-icons arrows-1_share-66"></i> Upgrade to PRO
           </a>
-        </div>
+        </div> -->
       </div>
       <br />
       <br />
-      <div class="row justify-content-md-center sharing-area text-center">
+
+      <!-- <div class="row justify-content-md-center sharing-area text-center">
         <div class="text-center col-md-12 col-lg-8">
           <h3>Thank you for supporting us!</h3>
         </div>
@@ -103,7 +106,8 @@
             <i class="fab fa-github"></i>
           </a>
         </div>
-      </div>
+      </div> -->
+
     </div>
   </div>
 </template>

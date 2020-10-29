@@ -1,7 +1,7 @@
 <template>
   <navbar
     position="fixed"
-    type="white"
+    :type="type"
     :transparent="transparent"
     :color-on-scroll="colorOnScroll"
     menu-classes="ml-auto"
@@ -144,7 +144,8 @@ export default {
   name: 'main-navbar',
   props: {
     transparent: Boolean,
-    colorOnScroll: Number
+    colorOnScroll: Number,
+    type: String
   },
   components: {
     //DropDown,
@@ -158,7 +159,6 @@ export default {
   }),
   methods: {
     CheckScroll(e){
-      console.log(e)
       this.isImgLogo = e < this.scrollLimit
     }
   },
