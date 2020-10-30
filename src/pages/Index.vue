@@ -9,7 +9,7 @@
       <!-- overlay="linear-gradient(45deg,#2a4ae430,#fb949e6b)"  -->
         <video-background 
             src="img/roadster-loop-imperial.mp4"
-            poster="desk-laptop.jpg"
+            poster="img/desk-laptop.jpg"
             style="max-height: 400px; height: 100vh;"
             
             overlay="linear-gradient(0deg, rgba(0, 0, 0, 0.88), rgba(251, 148, 158, 0.22), rgba(251, 148, 158, 0.42))"
@@ -138,7 +138,7 @@ export default {
 </script>
 <style>
 .cover-tint {
-    height: 200px;
+    height: 110px;
     margin-top: -109px;
     position: relative;
     background: linear-gradient(0deg, rgb(25 24 24), rgba(0,0,0,0.1));
