@@ -26,32 +26,13 @@
       <div class="container">
         <div class="content-center brand">
           <!-- <img class="n-logo" src="img/now-logo.png" alt="" /> -->
-          <h1 class="h1" style="margin-top:30px">Navigate the Future</h1>
-          <!-- <h3>A beautiful Bootstrap 4 UI kit. Yours free.</h3> -->
-        </div>
-      </div>
-    </div>
-    <div class="main">
-      <div class="section section-images">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-12">
-              <div class="hero-images-container">
-                <img src="img/hero-image-1.png" alt="" />
-              </div>
-              <div class="hero-images-container-1">
-                <img src="img/hero-image-2.png" alt="" />
-              </div>
-              <div class="hero-images-container-2">
-                <img src="img/hero-image-3.png" alt="" />
-              </div>
-            </div>
-          </div>
+          <h1 class="h1" style="margin-top:0px">Navigate the future</h1>
         </div>
       </div>
     </div>
     <!-- <div class="main">
       <div class="section section-images">
+      
         <div class="container">
           <div class="row">
             <div class="col-md-12">
@@ -69,6 +50,79 @@
         </div>
       </div>
     </div> -->
+
+    <div class="main">
+      <div class="section">
+        <div class="container">
+          <img src="img/line.png" />
+          <h2 class="h1" style="margin-top:32px">Redefining Normal</h2>
+          <p>
+            The rapid change in systems and the forever changing demands of organizations have long-term implications. With work from home and learning from home being the “next normal” and businesses cutting costs, it is imperative that you need to transition quickly from the traditional processes delivery to a low-cost and effective approach. Olivya offers diverse solutions and platforms as services that are customized to suit your needs.
+          </p>
+        </div>
+        <div class="row clear-filter" filter-color="orange">
+            <div class="col-12 col-lg-4 item-wrapper cardimg1">
+              <p class="p1">Immersive</p>
+              <p class="p2">
+                We combine the engaging elements of technology and human principles to create meaningful user experience
+              </p>
+            </div>
+             <div class="col-12 col-lg-4 item-wrapper cardimg2">
+              <p class="p1">Dynamic</p>
+              <p class="p2">
+                We seek to understand users, dispute assumptions, reimagine problems, and formulate out of the box solutions for testing and incubation 
+              </p>
+            </div>
+             <div class="col-12 col-lg-4 item-wrapper cardimg3">
+              <p class="p1">Experience</p>
+              <p class="p2">
+                We design your solutions to get users engaged - anytime, anywhere, on any device
+              </p>
+            </div>
+          </div>
+        <!-- <div class="container">
+          
+        </div> -->
+      </div>
+    </div>
+
+    <carousel-section></carousel-section>
+
+    <div class="main">
+      <div class="section">
+        <div class="container">
+          <img src="img/line.png" />
+          <h2 class="h1" style="margin-top:32px">At Olivya we understand how to engage the market and create effective solutions for you.</h2>
+          <!-- <p>
+            The rapid change in systems and the forever changing demands of organizations have long-term implications. With work from home and learning from home being the “next normal” and businesses cutting costs, it is imperative that you need to transition quickly from the traditional processes delivery to a low-cost and effective approach. Olivya offers diverse solutions and platforms as services that are customized to suit your needs.
+          </p> -->
+        </div>
+        <div class="row clear-filter" filter-color="orange">
+            <div class="col-12 col-lg-4 item-wrapper cardimg1">
+              <p class="p1">Immersive</p>
+              <p class="p2">
+                We combine the engaging elements of technology and human principles to create meaningful user experience
+              </p>
+            </div>
+             <div class="col-12 col-lg-4 item-wrapper cardimg2">
+              <p class="p1">Dynamic</p>
+              <p class="p2">
+                We seek to understand users, dispute assumptions, reimagine problems, and formulate out of the box solutions for testing and incubation 
+              </p>
+            </div>
+             <div class="col-12 col-lg-4 item-wrapper cardimg3">
+              <p class="p1">Experience</p>
+              <p class="p2">
+                We design your solutions to get users engaged - anytime, anywhere, on any device
+              </p>
+            </div>
+          </div>
+        <!-- <div class="container">
+          
+        </div> -->
+      </div>
+    </div>
+
     <!-- <basic-elements></basic-elements>
     <navigation></navigation>
     <tabs-section></tabs-section>
@@ -76,7 +130,7 @@
     <notifications></notifications>
     <typography></typography>
     <javascript-components></javascript-components>
-    <carousel-section></carousel-section>
+    
     <nucleo-icons-section></nucleo-icons-section> -->
 
     <!-- <div class="section">
@@ -96,8 +150,8 @@
     </div> -->
 
     <!-- <signup-form></signup-form>
-    <examples-section></examples-section> -->
-    <download-section></download-section>
+    <examples-section></examples-section> 
+    <download-section></download-section>-->
   </div>
 </template>
 <script>
@@ -123,7 +177,7 @@ import DownloadSection from './components/DownloadSection';
 //     Notifications,
 //     Typography,
 //     JavascriptComponents,
-//     CarouselSection,
+//     DownloadSection
 //     NucleoIconsSection,
 // SignupForm,
 // ExamplesSection,
@@ -131,8 +185,8 @@ import DownloadSection from './components/DownloadSection';
 export default {
   name: 'index',
   bodyClass: 'index-page',
-  components: {           
-    DownloadSection
+  components: {   
+    CarouselSection
   }
 };
 </script>
@@ -143,5 +197,53 @@ export default {
     position: relative;
     background: linear-gradient(0deg, rgb(25 24 24), rgba(0,0,0,0.1));
     box-shadow: 0px -30px 30px rgba(0,0,0,0.1);
+}
+.item-wrapper {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 360px;
+    margin: 0 auto;
+    height: auto;
+    padding: 60px 50px;
+    min-height: 340px;
+
+    -webkit-box-pack: center;
+    justify-content: center;
+}
+.cardimg1 {
+    background: linear-gradient(rgba(55, 33, 123, 0.4), rgba(255, 152, 32, 0.4)) center center / cover no-repeat, url(/img/building-up.jpg);
+    /* background-image: url(/img/team-discussion.jpg); */
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    color: white;
+}
+.cardimg2 {
+    background: linear-gradient(rgba(66, 5, 53, 0.4), rgba(255, 152, 32, 0.4)) center center / cover no-repeat, url(/img/team-discussion.jpg);
+    /* background-image: url(/img/team-discussion.jpg); */
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    color: white;
+}
+.cardimg3 {
+    background: linear-gradient(rgba(17, 15, 111, 0.4), rgba(255, 152, 32, 0.4)) center center / cover no-repeat, url(/img/chart-tablet.jpg);
+    /* background-image: url(/img/team-discussion.jpg); */
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    color: white;
+}
+.p1 {
+    color: rgb(255, 255, 255);
+    margin: 15px 0px;
+    font-size: 32px;
+}
+.p2 {
+    color: rgb(255, 255, 255);
+    margin: 0px 0px 15px;
+    font-size: 16px;
 }
 </style>
