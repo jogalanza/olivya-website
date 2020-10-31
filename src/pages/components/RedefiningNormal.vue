@@ -10,7 +10,7 @@
         </div>
         <div class="row clear-filter" filter-color="orange">
             <div class="col-12 col-lg-4 item-wrapper cardimg1"
-              style="background: linear-gradient(rgba(55, 33, 123, 0.4), rgba(255, 152, 32, 0.4)) center center / cover no-repeat, url(/img/building-up.jpg);background-size:cover"
+              style="background: linear-gradient(rgba(55, 33, 123, 0.4), rgba(255, 152, 32, 0.4)) center center / cover no-repeat, url(img/building-up.jpg);background-size:cover"
             >
               <p class="p1">Immersive</p>
               <p class="p2">
@@ -18,7 +18,7 @@
               </p>
             </div>
              <div class="col-12 col-lg-4 item-wrapper cardimg2"
-              style="background: linear-gradient(rgba(66, 5, 53, 0.4), rgba(255, 152, 32, 0.4)) center center / cover no-repeat, url(/img/team-discussion.jpg);background-size:cover"
+              style="background: linear-gradient(rgba(66, 5, 53, 0.4), rgba(255, 152, 32, 0.4)) center center / cover no-repeat, url(img/team-discussion.jpg);background-size:cover"
              >
               <p class="p1">Dynamic</p>
               <p class="p2">
@@ -26,7 +26,7 @@
               </p>
             </div>
              <div class="col-12 col-lg-4 item-wrapper cardimg3"
-              style="background: linear-gradient(rgba(17, 15, 111, 0.4), rgba(255, 152, 32, 0.4)) center center / cover no-repeat, url(/img/chart-tablet.jpg);background-size:cover"
+              style="background: linear-gradient(rgba(17, 15, 111, 0.4), rgba(255, 152, 32, 0.4)) center center / cover no-repeat, url(img/chart-tablet.jpg);background-size:cover"
              >
               <p class="p1">Experience</p>
               <p class="p2">
