@@ -171,7 +171,7 @@ export default {
     display: flex;
     flex-direction: column;
     align-items: center;
-    max-width: 360px;
+    /* max-width: 360px; */
     margin: 0 auto;
     height: auto;
     padding: 60px 50px;
