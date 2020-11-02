@@ -99,7 +99,7 @@
           rel="tooltip"
           title="Follow us on Twitter"
           data-placement="bottom"
-          href="https://twitter.com/CreativeTim"
+          href="https://twitter.com"
           target="_blank"
         >
           <i class="fab fa-twitter"></i>
@@ -112,7 +112,7 @@
           rel="tooltip"
           title="Like us on Facebook"
           data-placement="bottom"
-          href="https://www.facebook.com/CreativeTim"
+          href="https://www.facebook.com"
           target="_blank"
         >
           <i class="fab fa-facebook-square"></i>

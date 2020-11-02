@@ -2,7 +2,7 @@
     padding: 70px 0;
     position: relative;
     background: $white-color;
-
+    min-height: calc(100vh);
     .row + .category{
         margin-top: $margin-base-vertical;
     }

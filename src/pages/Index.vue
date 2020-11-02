@@ -89,7 +89,7 @@
 
     <ClientShowcase />
 
-    <ContactUs />
+    <!-- <ContactUs /> -->
 
     <!-- <basic-elements></basic-elements>
     <navigation></navigation>
@@ -131,12 +131,12 @@
 // import Notifications from './components/Notifications';
 // import Typography from './components/Typography';
 // import JavascriptComponents from './components/JavascriptComponents';
-// import CarouselSection from './components/CarouselSection';
+import CarouselSection from './components/CarouselSection';
 // import NucleoIconsSection from './components/NucleoIconsSection';
 // import SignupForm from './components/SignupForm';
 // import ExamplesSection from './components/ExamplesSection';
 import DownloadSection from './components/DownloadSection'
-import ContactUs from './components/ContactUs.vue'
+// import ContactUs from './components/ContactUs.vue'
 import RedefiningNormal from './components/RedefiningNormal.vue'
 import ClientShowcase from './components/ClientShowcase.vue'
 
@@ -158,7 +158,6 @@ export default {
   bodyClass: 'index-page',
   components: {   
     CarouselSection,
-    ContactUs,
     RedefiningNormal,
     ClientShowcase
   }
