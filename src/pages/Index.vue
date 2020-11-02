@@ -89,6 +89,8 @@
 
     <ClientShowcase />
 
+    <ContactUs />
+
     <!-- <basic-elements></basic-elements>
     <navigation></navigation>
     <tabs-section></tabs-section>
@@ -134,6 +136,7 @@ import NucleoIconsSection from './components/NucleoIconsSection';
 import SignupForm from './components/SignupForm';
 import ExamplesSection from './components/ExamplesSection';
 import DownloadSection from './components/DownloadSection';
+import ContactUs from './components/ContactUs.vue'
 
 //Parallax,
 //  BasicElements,
@@ -153,6 +156,7 @@ export default {
   bodyClass: 'index-page',
   components: {   
     CarouselSection,
+    ContactUs,
     RedefiningNormal: () => import('./components/RedefiningNormal.vue'),
     ClientShowcase: () => import('./components/ClientShowcase.vue')
   }
